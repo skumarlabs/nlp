@@ -25,7 +25,6 @@ def create_word2idx(text1, text2):
     word_idx = np.zeros((dict_len, num_docs), dtype=np.int32)
     t_init = time.time()
     for i in range(dict_len):
-
         word_idx[i][0] = text1.count(text_dictionary[i])
         word_idx[i][1] = text2.count(text_dictionary[i])
         if i%1000 == 0:
@@ -38,7 +37,6 @@ def create_word2idx(text1, text2):
 
 def print_matrix(matrix, i, j):
     for row in range(i):
-
         for column in range(j):
             print(matrix[row][column], end=" ")
         print("\n")
