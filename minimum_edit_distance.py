@@ -20,9 +20,9 @@ def distance(l1, l2):
     for i in range(1, l1 + 1):
         for j in range(1, l2 + 1):
             if lookup[i][j] == -1:
-                d1 = distance(i - 1, j) + 1
-                d2 = distance(i, j - 1) + 1
-                d3 = distance(i - 1, j - 1) + (2 if str1[i - 1] != str2[j - 1] else 0)
+                d1 = distance(i - 1, j) + 1  # delete
+                d2 = distance(i, j - 1) + 1  # insert
+                d3 = distance(i - 1, j - 1) + (2 if str1[i - 1] != str2[j - 1] else 0)  # substitute
                 dist = min(d1, d2, d3)
                 lookup[i][j] = dist
             else:
@@ -34,10 +34,10 @@ def distance(l1, l2):
 if __name__ == '__main__':
     lookup = [[-1 for j in range(m + 1)] for i in range(n + 1)]
 
-    # for i in range(n+1):
-    #     lookup1[i][0] = 0
-    # for j in range(m+1):
-    #     lookup1[0][j] = 0
+    for i in range(n + 1):
+        lookup[i][0] = i
+    for j in range(m + 1):
+        lookup[0][j] = j
 
     print(distance(n, m))
     pass

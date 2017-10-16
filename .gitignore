@@ -1,3 +1,8 @@
 
 .idea/
 data/
+.vscode/
+*.ipynb
+*.txt
+*.pyc
+
