@@ -9,7 +9,6 @@ from nltk import word_tokenize
 def read_input(filenames):
     '''
     Read files from a list of file names and returns a list of text from each file
-
     :param filenames: a list of filenames as strings
     :return: a list of strings of text content from each file
     '''
