@@ -50,13 +50,11 @@ SIGNS = [
 
 PUNCTUATIONS = [
                 '।', #0x964, # DEVANAGARI DANDA = purna viram • phrase separator
-                ',', #0x02C, #  Comma
-                '?', #0x03F, #  Question Mark
-                '!', #0x021, # Exclaimation Mark
-                ':', #0x03A, # Colon
-                ';', #0x03B, # Semi Colon
-                '\'', #0x027, # Single Quote
-                '"', #0x022, # Double Quote
+                '“', # LEFT DOUBLE QUOTATION MARK
+                '”', # RIGHT DOUBLE QUOTATION MARK
+                '‘', # LEFT SINGLE QUOTATION MARK
+                '–', # HYPHEN
+                '’' # RIGHT SINGLE QUOTATION MARK
 ]
 
 CONSONANTS = [
