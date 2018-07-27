@@ -40,7 +40,7 @@ SIGNS = [
                 'ऀ', #0x900, # DEVANAGARI SIGN INVERTED CANDRABINDU = vaidika adhomukha candrabindu
                 'ँ', #0x901, # DEVANAGARI SIGN CANDRABINDU = anunasika →  $̐  combining candrabindu
                 'ं', #0x902, # DEVANAGARI SIGN ANUSVARA = bindu
-                'ः' #0x903, # DEVANAGARI SIGN VISARGA 
+                'ः', #0x903, # DEVANAGARI SIGN VISARGA 
                 '़', #0x93C, # DEVANAGARI SIGN NUKTA • for extending the alphabet to new letters
 # Abbreviation sign
                 '॰', #0x970, # DEVANAGARI ABBREVIATION SIGN • intended for Devanagari-specific abbreviations
@@ -55,7 +55,12 @@ PUNCTUATIONS = [
                 '”', # RIGHT DOUBLE QUOTATION MARK
                 '‘', # LEFT SINGLE QUOTATION MARK
                 '–', # HYPHEN
-                '’' # RIGHT SINGLE QUOTATION MARK
+                '’', # RIGHT SINGLE QUOTATION MARK
+                '，', # FULL WIDTH COMMA
+                '—',
+                '‑',
+                '…', # HORIZONTAL ELLIPSIS
+          
 ]
 
 CONSONANTS = [
