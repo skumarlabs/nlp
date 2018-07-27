@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 INDEPENDENT_VOWELS = [
-                'अ' #0x905, # DEVANAGARI LETTER A 
+                'अ', #0x905, # DEVANAGARI LETTER A 
                 'आ', #0x906, # DEVANAGARI LETTER AA
                 'इ', #0x907, # DEVANAGARI LETTER I
                 'ई', #0x908, # DEVANAGARI LETTER II
@@ -67,7 +67,7 @@ CONSONANTS = [
                 'च', #0x91A, # DEVANAGARI LETTER CA
                 'छ', #0x91B, # DEVANAGARI LETTER CHA
                 'ज', #0x91C, # DEVANAGARI LETTER JA
-                'झ' #0x91D, # DEVANAGARI LETTER JHA
+                'झ', #0x91D, # DEVANAGARI LETTER JHA
                 'ञ', #0x91E, # DEVANAGARI LETTER NYA
                 'ट', #0x91F, # DEVANAGARI LETTER TTA
                 'ठ', #0x920, # DEVANAGARI LETTER TTHA
