@@ -46,6 +46,7 @@ SIGNS = [
                 '॰', #0x970, # DEVANAGARI ABBREVIATION SIGN • intended for Devanagari-specific abbreviations
                 'ॱ', #0x971, # DEVANAGARI SIGN HIGH SPACING DOT
                 '्', #0x94D, # DEVANAGARI SIGN VIRAMA = halant (the preferred Hindi name) • suppresses inherent vowel
+                '₹' # hindi rupee 
 ]
 
 PUNCTUATIONS = [
